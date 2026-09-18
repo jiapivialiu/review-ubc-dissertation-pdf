@@ -1,5 +1,9 @@
 # UBC Thesis & Dissertation PDF Reviewer — Agent Skill
 
+> Portable Agent Skill for UBC thesis and dissertation PDF formatting, margin, citation, and cIRcle final-submission checks.
+
+**Canonical repository and installation source:** [github.com/jiapivialiu/review-ubc-dissertation-pdf](https://github.com/jiapivialiu/review-ubc-dissertation-pdf)
+
 `review-ubc-dissertation-pdf` is an open-source, portable Agent Skill that audits a University of British Columbia master's thesis or doctoral dissertation PDF before final post-defence submission to cIRcle. It checks UBC thesis formatting, PDF margins and page numbering, front matter and committee pages, figure and table legibility, citation metadata, and regressions after revision. Reviews are read-only by default and run locally except for public citation lookups.
 
 The skill follows the open [Agent Skills specification](https://agentskills.io/specification), so it is not tied to one model vendor or agent product. Any Agent Skills-compatible client can discover it from `SKILL.md`; clients with a different skill directory can install the same repository without rewriting its instructions. It supports both UBC Vancouver and UBC Okanagan and distinguishes master's-thesis rules from doctoral-dissertation rules.

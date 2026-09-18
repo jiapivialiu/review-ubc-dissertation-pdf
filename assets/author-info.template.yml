@@ -1,0 +1,73 @@
+schema_version: 1
+
+candidate:
+  pdf_path: null                 # Agent may fill from the selected file.
+  sha256: null                   # Agent may fill from preflight.
+
+identity:
+  full_name_as_registered_in_workday: null
+  family_name_for_filename: null
+  given_name_for_filename: null
+
+degree:
+  level: null                    # master's or doctoral
+  name: null                     # e.g. Master of Science or Doctor of Philosophy
+  program_name_as_shown_in_workday: null
+  campus: null                   # Vancouver or Okanagan
+  graduation_year: null
+  graduation_month: null         # campus-appropriate conferral month
+
+document:
+  type: null                     # thesis; doctoral students may use dissertation
+  exact_title: null
+  copyright_year: null
+  approved_style_guide: null
+
+committee:
+  supervisor_names: null
+  co_supervisor_names: null      # [] if none
+  examining_committee_members: null
+  supervisory_committee_members: null
+  additional_examiner_names: null
+  additional_supervisory_committee_names: null
+  university_examiner_names: null        # doctoral only
+  external_examiner_name: null           # doctoral only
+  include_external_examiner_on_committee_page: null  # doctoral only
+  defence_chair_name: null                # doctoral; omit unless also a committee member
+
+post_defence:
+  minor_revisions_complete: null
+  revisions_approved_by: null
+  revisions_approval_date: null
+
+submission:
+  supplementary_files: null      # [] if none
+  embargo_requested: null
+  embargo_approved: null
+  circle_abstract_matches_pdf: null
+
+genai:
+  used_in_research_drafting_or_preparation: null
+  discussed_with_supervisor: null
+  preface_statement_approved: null
+
+publication_and_rights:
+  contains_published_or_coauthored_material: null
+  student_contributions_disclosed: null
+  copyright_permissions_complete: null
+
+privacy:
+  signatures_removed: null
+  personal_information_removed: null
+  ethics_certificates_removed: null
+
+human_signoff:
+  identity_title_degree_and_program: null
+  final_committee_and_roles: null
+  abstract_and_lay_summary_word_counts_from_source: null
+  all_geometry_flags_reviewed_at_high_resolution: null
+  unflagged_wide_equations_and_layout_families_spot_checked: null
+  visible_page_numbers_and_component_order: null
+  figures_tables_equations_and_captions_legible: null
+  minor_revisions_complete_and_approved: null
+  final_pdf_reopened_after_final_rename: null

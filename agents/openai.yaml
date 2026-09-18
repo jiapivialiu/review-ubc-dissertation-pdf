@@ -1,4 +1,4 @@
 interface:
-  display_name: "Review UBC Thesis or Dissertation PDF"
-  short_description: "Verify UBC thesis formatting and citations"
-  default_prompt: "Use $review-ubc-dissertation-pdf to review this UBC master's thesis or doctoral dissertation PDF for final submission, verify every paper citation against authoritative online records, and return a concise plain-Markdown, evidence-linked issue list without editing the source or emitting host-specific UI directives."
+  display_name: "UBC Thesis & Dissertation PDF Review"
+  short_description: "Audit UBC thesis PDFs for cIRcle submission"
+  default_prompt: "Use $review-ubc-dissertation-pdf to audit this UBC thesis or dissertation PDF for formatting, margins, citations, and final cIRcle submission readiness without editing the source."

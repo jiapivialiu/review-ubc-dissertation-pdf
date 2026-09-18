@@ -1,6 +1,10 @@
 ---
 name: review-ubc-dissertation-pdf
-description: Review a UBC master's thesis or doctoral dissertation PDF for final post-defence submission without editing the source. Use for lightweight screening, strict final preflight, citation existence and metadata verification, page-margin or formula-overflow detection, cIRcle readiness, UBC formatting compliance, page-by-page layout triage, organization checks, or regression review of a revised thesis or dissertation PDF.
+description: Audit a UBC (University of British Columbia) master's thesis or doctoral dissertation PDF for final post-defence submission to cIRcle. Use whenever a user asks to check or review a UBC thesis/dissertation, UBC Graduate and Postdoctoral Studies (G+PS) formatting, PDF margins, page numbering, front matter, committee pages, figures or tables, final filename and PDF preflight, cIRcle readiness, citation or bibliography metadata, or a revised-PDF regression review. Read-only by default; not for generic manuscript peer review or another university's formatting rules.
+license: MIT
+metadata:
+  author: jiapivialiu
+  repository: https://github.com/jiapivialiu/review-ubc-dissertation-pdf
 ---
 
 # Review UBC Thesis or Dissertation PDF
